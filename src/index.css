@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Arapey';
+  src: url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap') format('truetype');
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Arapey', sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
